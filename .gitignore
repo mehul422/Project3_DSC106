@@ -1,0 +1,31 @@
+# Ignore Python compiled files  
+__pycache__/  
+*.py[cod]  
+*.pyo  
+*.pyd  
+
+# Ignore CSV and Pickle output files  
+DESTINATION_OUTPUT/*.csv  
+DESTINATION_OUTPUT/*.pkl  
+
+# Ignore Jupyter Notebook checkpoints (if using notebooks)  
+.ipynb_checkpoints/  
+
+# Ignore log files  
+*.log  
+logs/  
+
+# Ignore system-specific files  
+.DS_Store  
+Thumbs.db  
+
+# Ignore virtual environments  
+venv/  
+.env  
+*.venv  
+
+# Ignore VS Code settings (optional)  
+.vscode/  
+
+# Ignore MacOS metadata files  
+*.DS_Store  
